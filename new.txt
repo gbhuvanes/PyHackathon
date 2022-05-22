@@ -1,0 +1,36 @@
+new functions:
+apply function - to Apply a Function to Pandas DataFrame Column 
+used this to claculate age from the date of birth of all the patients
+df.columns.get_level_values function - show the columns in the output at the same level when using groupby
+
+Q38: i just added a graph, but it was not asked
+
+try this for additional qtns:
+
+data transformation for categorical data with pivot
+interactive heatmap
+https://datascientyst.com/display-pandas-dataframe-heatmap/
+https://indianaiproduction.com/seaborn-heatmap/
+https://www.kaggle.com/code/tsilveira/applying-heatmaps-for-categorical-data-analysis/notebook
+https://hossainlab.github.io/dataviz/notebooks/SB02-Categorical%20Plots.html
+
+chk geeksforgeeks for some extra qtns
+
+
+
+
+jira:
+
+Complete sprint: PYHACK Sprint 1
+34 issues were done
+9 issues were incomplete - moved to next sprint
+
+check:
+Q40 output
+Q42 output
+Q52 output
+
+Q4:
+patients_df['Yr_qcut'] = pd.qcut(patients_df.Age, q=4,
+                        labels=labels)
+display(patients_df)
