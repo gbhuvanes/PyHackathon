@@ -1,0 +1,5 @@
+steps to install git and configure:
+
+if windows:
+https://git-scm.com/
+Download and install latest version
